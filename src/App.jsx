@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <div>reduxToolkit</div>
+      <div>reduxToolkit TODO</div>
       <AddTodo />
-      <Todos/>
+      <Todos />
     </>
   )
 }

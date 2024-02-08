@@ -39,9 +39,9 @@ const Todos = () => {
                             <span>{todo.text}</span>
                         </>
                     )}
-                    <button onClick={() => handleEditToggle(todo)}>
-                        {editedTodoId === todo.id ? 'Save' : 'Edit'}
-                    </button>
+                    
+                    <button onClick={() => handleEditToggle(todo)}>{editedTodoId === todo.id ? 'Save' : 'Edit'}</button>
+
                     <button onClick={() => dispatch(removeTodo(todo.id))}>Delete</button>
                 </li>
             ))}
